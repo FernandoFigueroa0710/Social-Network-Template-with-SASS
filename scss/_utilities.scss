@@ -16,6 +16,10 @@
 .text-primary {
 	color: $primary-color;
 }
+//Round Image
+.round-img {
+	border-radius: 50%;
+}
 //Backgrounds
 .bg {
 	&-primary {
