@@ -39,6 +39,26 @@
 		border: 1px solid #ccc;
 	}
 }
+//Alerts
+.alert {
+	padding: 0.8rem;
+	margin: 1rem;
+	opacity: 0.8;
+	background: $light-color;
+	color: $primary-text-dark;
+	&.alert-primary {
+		@include set-background($primary-color);
+	}
+	&.alert-dark {
+		@include set-background($dark-color);
+	}
+	&.alert-success {
+		@include set-background($success-color);
+	}
+	&.alert-danger {
+		@include set-background($danger-color);
+	}
+}
 //IMAGE OVERLAY
 .dark-overlay {
 	height: 100%;
