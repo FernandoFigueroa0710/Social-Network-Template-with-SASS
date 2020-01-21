@@ -1,3 +1,18 @@
+//Text Styles
+.x-large {
+	font-size: 4rem;
+	line-height: 1.2rem;
+	margin-bottom: 1rem;
+}
+.large {
+	font-size: 3rem;
+	line-height: 1.2rem;
+	margin-bottom: 1rem;
+}
+.lead {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
 //Backgrounds
 .bg {
 	&-primary {
@@ -20,4 +35,13 @@
 		@include set-background(#fff);
 		border: 1px solid #ccc;
 	}
+}
+//BUTTONS
+.dark-overlay {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.6);
 }

@@ -3,15 +3,17 @@ $dark-color: #343a40;
 $light-color: #f4f4f4;
 $danger-color: #dc3545;
 $success-color: #28a745;
+$primary-text-dark: #333;
+$primary-text-light: #fff;
 
 $max-width: 1100px;
 
 //Set text color based on background
 @function set-text-color($color) {
 	@if (lightness($color) > 50) {
-		@return #333;
+		@return $primary-text-dark;
 	} @else {
-		@return #fff;
+		@return $primary-text-light;
 	}
 }
 //Set background and text color
