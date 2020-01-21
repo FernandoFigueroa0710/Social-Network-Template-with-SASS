@@ -1,8 +1,11 @@
 @import "_config";
 @import "_utilities";
+//COMPONENTS
 @import "components/navbar";
 @import "components/landing_page";
 @import "components/buttons";
+@import "components/register";
+@import "components/form";
 
 * {
 	box-sizing: border-box;
