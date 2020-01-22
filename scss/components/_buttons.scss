@@ -1,46 +1,47 @@
 .btn {
-	display: inline-block;
-	background: $light-color;
-	color: $primary-text-dark;
-	border: none;
-	border-radius: 5px;
-	padding: 0.4rem 0.3rem;
-	cursor: pointer;
-	font-size: 1rem;
-	margin-right: 0.5rem;
-	outline: none;
-	transition: all 0.2s ease-in;
-	&.btn-primary {
-		@include set-background($primary-color);
-		&:hover {
-			background: lighten($primary-color, 5%);
-		}
-	}
-	&.btn-light {
-		@include set-background($light-color);
-		&:hover {
-			background: lighten($light-color, 5%);
-		}
-	}
-	&.btn-dark {
-		@include set-background($dark-color);
-		&:hover {
-			background: lighten($dark-color, 5%);
-		}
-	}
-	&.btn-success {
-		@include set-background($success-color);
-		&:hover {
-			background: lighten($success-color, 5%);
-		}
-	}
-	&.btn-danger {
-		@include set-background($danger-color);
-		&:hover {
-			background: lighten($danger-color, 5%);
-		}
-	}
-	&:hover {
-		background: lighten($color: $dark-color, $amount: 20%);
-	}
+  display: inline-block;
+  background: $light-color;
+  color: $primary-text-dark;
+  border: none;
+  border-radius: 5px;
+  padding: 0.4rem 0.3rem;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  outline: none;
+  transition: all 0.2s ease-in;
+  &.btn-primary {
+    @include set-background($primary-color);
+    &:hover {
+      background: lighten($primary-color, 5%);
+    }
+  }
+  &.btn-light {
+    @include set-background($light-color);
+    &:hover {
+      background: lighten($light-color, 5%);
+    }
+  }
+  &.btn-dark {
+    @include set-background($dark-color);
+    &:hover {
+      background: lighten($dark-color, 5%);
+    }
+  }
+  &.btn-success {
+    @include set-background($success-color);
+    &:hover {
+      background: lighten($success-color, 5%);
+    }
+  }
+  &.btn-danger {
+    @include set-background($danger-color);
+    &:hover {
+      background: lighten($danger-color, 5%);
+    }
+  }
+  &:hover {
+    @include set-background($dark-color);
+    background: lighten($color: $dark-color, $amount: 20%);
+  }
 }
