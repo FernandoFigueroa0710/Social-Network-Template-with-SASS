@@ -7,29 +7,29 @@
 @import "components/register";
 @import "components/form";
 @import "components/profiles";
-
+@import "components/posts";
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-	font-family: "Raleway", sans-serif;
-	font-size: 1rem;
-	line-height: 1.6;
-	background-color: #fff;
-	color: #333;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 ul {
-	list-style: none;
+  list-style: none;
 }
 
 img {
-	width: 100%;
+  width: 100%;
 }
