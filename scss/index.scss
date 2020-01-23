@@ -1,5 +1,6 @@
 @import "_config";
 @import "_utilities";
+
 //COMPONENTS
 @import "components/navbar";
 @import "components/landing_page";
@@ -33,3 +34,5 @@ ul {
 img {
   width: 100%;
 }
+//Media Querys
+@import "_mobile";
